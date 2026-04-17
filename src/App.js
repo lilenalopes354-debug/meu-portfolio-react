@@ -13,9 +13,10 @@ export default function App() {
         <section id="sobre">
           <h2>Sobre Mim</h2>
           {/* Coloque o link da foto da Lilena aqui se tiver */}
-          <img src="https://raw.githubusercontent.com/lilenalopes354-debug/Portf-lio-Lilena-UAPI/principal/foto.jpg.jpeg" alt="Foto de Lilena" className="foto" />
+          <img src="/foto.jpeg" alt="Foto de Lilena" className="foto" />
           <p>Sou estudante de Sistemas para Internet (UAPI) e foco em soluções digitais.</p>
         </section>
+      
 
         {/* Aqui chamamos o componente de projetos - Cumpre o requisito de componentização */}
         <Projetos />
